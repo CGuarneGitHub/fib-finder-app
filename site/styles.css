@@ -1,3 +1,71 @@
+body {
+    background-color: #D6DAC2
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#7BB0A6;
+    width: 500px;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 5px 10px #888888;
+}
+
+h1{
+    background-color: #64DDBB;
+    padding: 15px;
+    border-radius: 35px;
+    box-shadow: 5px 10px #888888;
+}
+
+#errorMsg{
+    color: darkred;
+    font-weight: bold;
+}
+
+img{
+    width: 50px;
+    margin-top: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#divNextFibNum{
+    background-color: #64DDBB;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 35px;
+    min-width: 50px;
+    min-height: 50px;
+    vertical-align: middle;
+    padding: 15px;
+    box-shadow: 5px 10px #888888;
+}
+
+#description{
+    font-style: italic;
+    width: 75%;
+    margin: 10px;
+}
+
 .hidden {
     display: none;
+}
+
+button {
+    padding: 5px;
+    border-radius: 35px;
+    background-color: #64DDBB;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+input {
+    height: 20px;
 }
