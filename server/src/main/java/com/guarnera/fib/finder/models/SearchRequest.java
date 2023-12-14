@@ -1,13 +1,13 @@
 package com.guarnera.fib.finder.models;
 
 public class SearchRequest {
-    private int startingNumber = 0;
+    private long startingNumber = 0;
 
-    public int getStartingNumber() {
+    public long getStartingNumber() {
         return startingNumber;
     }
 
-    public void setStartingNumber(int startingNumber) {
+    public void setStartingNumber(long startingNumber) {
         this.startingNumber = startingNumber;
     }
 }

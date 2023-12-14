@@ -1,11 +1,12 @@
 package com.guarnera.fib.finder.services;
 
+import com.guarnera.fib.finder.models.SearchResponse;
 import org.springframework.stereotype.Service;
 
 @Service
 public class FibService {
 
-    public int findNextFibNum(int startingNum) {
+    public long findNextFibNum(long startingNum) {
 
         if(startingNum < 0) {
             return 0;
@@ -13,9 +14,9 @@ public class FibService {
             return 1;
         }
 
-        int firstFib = 1;
-        int secondFib = 1;
-        int currentFib = firstFib + secondFib;
+        long firstFib = 1;
+        long secondFib = 1;
+        long currentFib = firstFib + secondFib;
 
         while(currentFib <= startingNum) {
 

@@ -16,7 +16,7 @@ public class FibController {
     @PostMapping("/findFib")
     public SearchResponse findNextFib(@RequestBody SearchRequest request) {
 
-        int nextNum = fibService.findNextFibNum(request.getStartingNumber());
+        long nextNum = fibService.findNextFibNum(request.getStartingNumber());
 
         SearchResponse response = new SearchResponse();
         response.setNextFibNum(nextNum);

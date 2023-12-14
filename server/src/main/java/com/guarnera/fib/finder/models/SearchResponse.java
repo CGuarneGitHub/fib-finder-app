@@ -2,13 +2,13 @@ package com.guarnera.fib.finder.models;
 
 public class SearchResponse {
 
-    private int nextFibNum;
+    private long nextFibNum;
 
-    public int getNextFibNum() {
+    public long getNextFibNum() {
         return nextFibNum;
     }
 
-    public void setNextFibNum(int nextFibNum) {
+    public void setNextFibNum(long nextFibNum) {
         this.nextFibNum = nextFibNum;
     }
 }
